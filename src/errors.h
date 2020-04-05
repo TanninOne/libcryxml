@@ -1,0 +1,10 @@
+#pragma once
+
+enum ErrorCode {
+  ERROR_NONE,
+  ERROR_UNKNOWN,
+
+  ERROR_INVALID_SIGNATURE,
+  ERROR_FAILED_TO_GENERATE_XML,
+
+};
