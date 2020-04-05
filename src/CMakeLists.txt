@@ -26,7 +26,8 @@ target_link_directories(libcryxml PUBLIC
 target_link_libraries(libcryxml tinyxml2)
 
 install(TARGETS libcryxml
-        RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
-        LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+        RUNTIME DESTINATION ${CMAKE_SOURCE_DIR}/dist
+        ARCHIVE DESTINATION ${CMAKE_SOURCE_DIR}/dist
+        LIBRARY DESTINATION ${CMAKE_SOURCE_DIR}/dist
 )
 
